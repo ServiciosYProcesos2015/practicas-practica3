@@ -47,7 +47,7 @@ public class TareaMuyCostosa implements Runnable{
     private void mostrarProgreso(final int progreso) {
     }
 
-    // TODO: Mostrar el progreso en la barra principal
+    // TODO: Avisar de la finalización de la tarea
     // Debéis hacerlo enviando un mensaje a la actividad principal
     // No utilices runnables aquí
     private void notificarFinalizacion(){
