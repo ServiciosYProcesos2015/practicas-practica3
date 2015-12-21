@@ -12,16 +12,16 @@
         android:id="@+id/btnTareaCostosa"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="156dp" />
+        android:layout_marginTop="81dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Saludar"
         android:id="@+id/btnSaludar"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/barraProgreso"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="92dp" />
+        android:layout_marginTop="83dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -30,5 +30,16 @@
         android:id="@+id/btnDetener"
         android:layout_below="@+id/btnTareaCostosa"
         android:layout_centerHorizontal="true" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/barraProgreso"
+        android:max="100"
+        android:layout_below="@+id/btnDetener"
+        android:layout_alignEnd="@+id/btnDetener"
+        android:layout_alignStart="@+id/btnDetener" />
+
 
 </RelativeLayout>
